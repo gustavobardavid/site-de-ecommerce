@@ -1,6 +1,6 @@
 ## Site de E-Commerce
 
-Página idealizadaa para um site de vendas de jogos.
+Página idealizada para um site de vendas de jogos.
 
 ### 📋 Descrição
 
