@@ -65,9 +65,6 @@ body {
     box-sizing: border-box;
 }
 
-.imgs img, video:hover {
-    
-}
 
 #banner {
     display: inline-block;
@@ -225,7 +222,8 @@ footer {
 }
 
 .sobre li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color:#0099ff;
 }
 
 .sobre-curso {
