@@ -1,0 +1,40 @@
+body {
+    background: rgb(223, 215, 215);
+}
+.sell-box {
+    width: 40%;
+    display: grid;
+    grid: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sell-box legend {
+    background-color: #4000ff;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #efe8e8;
+    /* border:1px solid #ffffff; */
+    color:#ffffff;
+    align-items: end;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.sell-box button {
+    background-color: #4000ff;
+    height: 100px;
+    width: 200px;
+    border: 1px solid #efe8e8;
+    /* border:1px solid #ffffff; */
+    color:#ffffff;
+    align-items: center;
+    font-weight: 500;
+    padding: 8px;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+

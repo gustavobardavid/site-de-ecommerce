@@ -4,6 +4,10 @@
     box-sizing: border-box;
 
 }
+/* 
+body {
+    background: rgb(223, 215, 215);
+} */
 
 .main {
     width: 90%;
@@ -127,7 +131,7 @@ footer {
 
 #header {
     border-top:1px solid #ff0000;
-    background: linear-gradient(to right, #05003d, #05003d); 
+    background: linear-gradient(to right, #0E1219, #05003d); 
     padding: 20px;
     color: #fff;
     
@@ -403,3 +407,4 @@ tr:hover {
     width: 150px;
     color: #fff;
 }
+
