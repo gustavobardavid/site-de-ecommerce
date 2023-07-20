@@ -147,13 +147,13 @@ body {
 
 .buscar form {
     text-align: center;
-    gap: 15px;
-    width: 100%;
+    gap: 15px; 
+    width: 60%;
 }
 
 
 .buscar input {
-    width: 30%;
+    width: 70%;
     flex: 1;
     padding: 10px;
     border: 1px solid #ddd;
@@ -165,15 +165,21 @@ body {
 
 .buscar button {
     background-color: #0099ff;
-    height: 50px;
-    width: 50px;
+    height:40px;
+    width: 10%;
     border: none;
     border-radius: 4px;
     color:#fff;
-    font-size: 1.7rem;
+    font-size: small;
     align-items: center;
     font-weight: 400;
     cursor: pointer;
+}
+
+.buscar span {
+    font-size: larger;
+    padding: 0px;
+    margin: 0 auto;
 }
 
 .cliente legend {
