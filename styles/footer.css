@@ -78,7 +78,7 @@ menu li {
 .footer-bottom {
     height: 60px;
     margin-top: 48px;
-    display: flex;
+    display: flex   ;
     text-align: center;
     align-items: center;
     justify-content: center;
