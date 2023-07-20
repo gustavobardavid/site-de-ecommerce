@@ -2,7 +2,6 @@ body {
     background: rgb(223, 215, 215);
 }
 
-
 .barra {
     background: #05003d;
     margin: 0 auto;
@@ -58,6 +57,10 @@ body {
     padding: 8px;
     cursor: pointer;
     font-size: xx-large;
+}
+
+.sell-box button:hover {
+    background-color: #00daed;
 }
 
 .descricao {
