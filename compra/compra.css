@@ -1,6 +1,29 @@
 body {
     background: rgb(223, 215, 215);
 }
+
+
+.barra {
+    background: #05003d;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.barra span {
+    font-size: small;   
+    margin-top: 0 auto;
+    display: flex;
+    justify-content:end;
+}
+
+.barra p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;   
+  margin-top: 0 auto;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+}
 .sell-box {
     width: 40%;
     display: grid;
