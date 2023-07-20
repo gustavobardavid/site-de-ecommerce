@@ -118,11 +118,9 @@ body {
     text-decoration: underline;
 }
 
-footer {
-    background: linear-gradient(to right, #0b6c0b, #1eb11e);
-    padding: 20px;
-    color: #fff;
-    
+.footer {
+    display: flex;
+    flex-direction: column;
 }
 
 #header {
@@ -387,6 +385,7 @@ tr:hover {
 
   .curso h1 {
     font-size: larger;
+
   }
 }
 
