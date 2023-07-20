@@ -78,7 +78,7 @@ menu li {
 .footer-bottom {
     height: 60px;
     margin-top: 48px;
-    display: flex;
+    display: flex   ;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -92,8 +92,8 @@ menu li {
     margin: 0 4px;
 }
 
-footer input {
-    width: 55%;
+.footer input {
+    width: 80%;
     flex: 1;
     padding: 10px;
     border: 1px solid #ddd;
@@ -103,7 +103,7 @@ footer input {
     font-weight: 600;
 }
 
-footer button {
+.footer button {
     background-color: #0099ff;
     height: 50px;
     width: 80px;
@@ -114,4 +114,8 @@ footer button {
     align-items: center;
     font-weight: 400;
     cursor: pointer;
+}
+
+.footer form {
+    width: 100%;
 }
