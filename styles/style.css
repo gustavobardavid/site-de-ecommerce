@@ -433,3 +433,54 @@ tr:hover {
     color: #fff;
 }
 
+
+
+.reference-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Três colunas igualmente espaçadas */
+    gap: 10px; /* Espaçamento entre as fotos */
+    max-width: 1200px; /* Largura máxima da grade */
+    margin: 10px 10px; /* Centraliza a grade horizontalmente */
+    padding: 20px; /* Espaçamento ao redor da grade */
+  }
+  
+  
+.reference-grid div {
+    box-sizing: border-box;
+    margin: 0 0;
+    border: 1px solid #0077ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box; 
+    text-align: left;
+}
+
+.reference-grid span {
+    font-size: medium;
+    font-weight: 300;
+}
+
+.reference-grid div:hover {
+    /* border: 0.2px solid #000000; */
+    
+}
+
+.reference-grid button {
+    background-color: #ffffff;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #efe8e8;
+    /* border:1px solid #ffffff; */
+    color:#000000;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.reference-grid button:hover {
+    background-color: #0d5687;
+    height: 50px;
+    width: 150px;
+    color: #fff;
+}
