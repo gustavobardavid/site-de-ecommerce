@@ -402,6 +402,7 @@ tr:hover {
     border-radius: 5px;
     padding: 5px 0px;
     box-sizing: border-box; 
+    transition: background-image 0.3s ease-in-out;
 }
 
 .photo-grid span {
@@ -432,8 +433,6 @@ tr:hover {
     width: 150px;
     color: #fff;
 }
-
-
 
 .reference-grid {
     display: grid;
@@ -484,3 +483,4 @@ tr:hover {
     width: 150px;
     color: #fff;
 }
+
